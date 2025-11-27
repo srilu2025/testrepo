@@ -13,19 +13,15 @@ public class RemoveSpecialCharacters {
 
         //substring practice
         String str = "Java Concept Of The Day";
-
         String subString1 = str.substring(11);
-
         System.out.println(subString1);           //Output : t Of The Day
-
         String subString2 = str.substring(5, 15);
-
         System.out.println(subString2);
 
-        //comparision of the strings
+
+        //comparision of the strings using Hashcode
         String s2=new String("abc");
         String s3=new String("def");
-
         System.out.println(s2.hashCode());
         System.out.println(s3.hashCode());
 

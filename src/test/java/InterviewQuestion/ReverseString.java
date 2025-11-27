@@ -16,6 +16,8 @@ public class ReverseString {
         }
         System.out.println("Reversing the string using for loop"+rev);
 
+
+        //2nd approach using StringBufffer
         String s1="mad";
         StringBuffer s2=new StringBuffer(s1);
         System.out.println("reverse the string using the string buffer....."+s2.reverse());
