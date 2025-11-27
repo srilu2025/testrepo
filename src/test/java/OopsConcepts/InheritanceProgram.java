@@ -1,6 +1,8 @@
 package OopsConcepts;
 
-  public class InheritanceProgram {
+import javaBasics.AccessModifiersPart1;
+
+public class InheritanceProgram extends AccessModifiersPart1{
     int i;
     String s;
     static int j;
@@ -37,6 +39,16 @@ package OopsConcepts;
         InheritanceProgram IP1=new InheritanceProgram(200);
         IP.method1();
         System.out.println(IP.name);
+
+        AccessModifiersPart1 acp=new AccessModifiersPart1();
+
+        //it is inherited to childclass
+        // but need to access with the childclass reference variable
+        System.out.println("PROTECTED  ACCESSMODIFIER..."+IP.variableProtect);
+
+        //cannot access the default modifier outside the block
+        //System.out.println("DEFAULT ACCESSMODIFIER..."+acp.variableDefault);
+
 
     }
 
