@@ -6,12 +6,14 @@ public class InstanceInitializationBlock {
 
     {
         a=10;
-        System.out.println("I AM IN THE FIRST IIB ");
+        System.out.println("I AM IN THE FIRST IIB "+a);
     }
     {
         System.out.println("I AM IN THE SECOND IIB");
     }
     InstanceInitializationBlock(){
+
+        super();
         //here IIB will execute cause super() is the first statement
         System.out.println("I AM IN THE NO-ARG CONSTRUCTOR");
     }
@@ -28,6 +30,12 @@ public class InstanceInitializationBlock {
 
         InstanceInitializationBlock IIB=new InstanceInitializationBlock();
         InstanceInitializationBlock IIB1=new InstanceInitializationBlock(99);
+
+        AccessModifiersPart1 acp=new AccessModifiersPart1();
+
+        System.out.println("PROTECTED  ACCESSMODIFIER..."+acp.variableProtect);
+
+        System.out.println("DEFAULT ACCESSMODIFIER..."+acp.variableDefault);
 
     }
 }
