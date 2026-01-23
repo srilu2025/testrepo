@@ -1,4 +1,4 @@
-package InterviewQuestion;
+package CodingInterviewQuestion;
 
 public class CountVowelConstDigitSpace {
 

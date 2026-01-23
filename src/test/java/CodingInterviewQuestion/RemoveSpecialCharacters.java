@@ -1,13 +1,11 @@
-package InterviewQuestion;
-
-import java.util.SplittableRandom;
+package CodingInterviewQuestion;
 
 public class RemoveSpecialCharacters {
 
     public static void main(String[] args){
 
 
-       String s="java$%$^%^is!@#@a)(*(&Amazing";
+       String s="java$%$^%^is!@#@()*(&Amazing";
         String s1=s.replaceAll("[^a-zA-Z0-9]"," ");
         System.out.println("the output after seperating the characters from the...."+s1);
 

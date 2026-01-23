@@ -1,4 +1,4 @@
-package InterviewQuestion;
+package CodingInterviewQuestion;
 
 import java.util.Scanner;
 
